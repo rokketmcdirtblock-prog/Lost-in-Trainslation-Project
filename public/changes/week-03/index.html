@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.154.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title href="/">Lost in Tra(i)nslation</title>
@@ -45,33 +44,69 @@
 </nav>
     <main class="flex-1">
       
-  <div class="ml-[10vw] mx-auto px-4 pt-8">
-    <h1 class="text-4xl font-bold mb-4 text-text">Home Page</h1>
-    <div class="text-text">
-      <p>Replace this text</p>
-<p><a href="/files/Arr1.zip">Download PDF</a></p>
-
-    </div>
+  <div class="pt-8 lg:pt-12 px-4 lg:px-0 lg:ml-[10vw] lg:flex lg:gap-8">
     
-      <h2 class="text-2xl font-bold mt-8 mb-4 text-text">Changes</h2>
-      <ul class="space-y-2">
+    
+    <aside class="lg:sticky lg:top-20 lg:self-start bg-bg-alt p-4 mb-6 lg:mb-0 rounded lg:w-48 shrink-0">
+      <button 
+        onclick="document.getElementById('sidebar-list').classList.toggle('hidden')"
+        class="lg:hidden w-full flex justify-between items-center font-bold text-text mb-2"
+      >
+        <span>Change Log</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      
+      <h2 class="hidden lg:block font-bold text-text mb-4">Change Log</h2>
+      
+      <ul id="sidebar-list" class="hidden lg:block space-y-2">
+        
         
           <li>
-            <a href="//localhost:1313/changes/week-01/" class="text-primary hover:text-accent">Week 1</a>
-            <span class="text-text-muted text-sm">— Jan 1, 2025</span>
+            <a 
+              href="//localhost:1313/changes/week-01/" 
+              class="text-text-muted hover:text-primary"
+            >
+              Week 1
+            </a>
           </li>
         
           <li>
-            <a href="//localhost:1313/changes/week-02/" class="text-primary hover:text-accent">Week 2</a>
-            <span class="text-text-muted text-sm">— Feb 1, 2025</span>
+            <a 
+              href="//localhost:1313/changes/week-02/" 
+              class="text-text-muted hover:text-primary"
+            >
+              Week 2
+            </a>
           </li>
         
           <li>
-            <a href="//localhost:1313/changes/week-03/" class="text-primary hover:text-accent">Week 3</a>
-            <span class="text-text-muted text-sm">— Feb 1, 2025</span>
+            <a 
+              href="//localhost:1313/changes/week-03/" 
+              class="text-accent font-bold"
+            >
+              Week 3
+            </a>
           </li>
         
       </ul>
+    </aside>
+    
+    
+    <div class="max-w-prose">
+      <h1 class="text-2xl md:text-3xl font-bold text-text mb-2">Week 3</h1>
+      <p class="text-text-muted mb-6">February 1, 2025</p>
+      <div class="text-text">
+        <h2 id="what-we-did">What we did</h2>
+<ul>
+<li>Initial project setup</li>
+<li>Created base templates</li>
+<li>Configured Tailwind</li>
+</ul>
+
+      </div>
+    </div>
     
   </div>
 

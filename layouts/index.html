@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="ml-[10vw] mx-auto px-4 pt-8">
+    <h1 class="text-4xl font-bold mb-4 text-text">{{ .Title }}</h1>
+    <div class="text-text">
+      {{ .Content }}
+    </div>
+    {{ with .Site.RegularPages.ByDate }}
+      <h2 class="text-2xl font-bold mt-8 mb-4 text-text">Changes</h2>
+      <ul class="space-y-2">
+        {{ range first 20 . }}
+          <li>
+            <a href="{{ .Permalink }}" class="text-primary hover:text-accent">{{ .Title }}</a>
+            <span class="text-text-muted text-sm">— {{ .Date.Format "Jan 2, 2006" }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+{{ end }}

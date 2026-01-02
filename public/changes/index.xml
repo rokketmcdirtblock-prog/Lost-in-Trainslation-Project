@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Changes on Lost in Tra(i)nslation</title>
+    <link>//localhost:1313/changes/</link>
+    <description>Recent content in Changes on Lost in Tra(i)nslation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/changes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2</title>
+      <link>//localhost:1313/changes/week-02/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/changes/week-02/</guid>
+      <description>&lt;h2 id=&#34;what-we-did&#34;&gt;What we did&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Initial project setup&lt;/li&gt;&#xA;&lt;li&gt;Created base templates&lt;/li&gt;&#xA;&lt;li&gt;Configured Tailwind&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Week 3</title>
+      <link>//localhost:1313/changes/week-03/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/changes/week-03/</guid>
+      <description>&lt;h2 id=&#34;what-we-did&#34;&gt;What we did&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Initial project setup&lt;/li&gt;&#xA;&lt;li&gt;Created base templates&lt;/li&gt;&#xA;&lt;li&gt;Configured Tailwind&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Week 1</title>
+      <link>//localhost:1313/changes/week-01/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/changes/week-01/</guid>
+      <description>&lt;h2 id=&#34;what-we-did&#34;&gt;What we did&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Initial project setup&lt;/li&gt;&#xA;&lt;li&gt;Created base templates&lt;/li&gt;&#xA;&lt;li&gt;Configured Tailwind&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="flex flex-col md:flex-row">
+    {{ partial "changes-sidebar.html" . }}
+    
+    <div class="flex-1 p-4 md:p-6">
+      {{ $changes := where .Site.RegularPages "Section" "changes" }}
+      {{ $latest := index ($changes.ByDate.Reverse) 0 }}
+      
+      {{ with $latest }}
+        <h1 class="text-2xl md:text-3xl font-bold text-text mb-2">{{ .Title }}</h1>
+        <p class="text-text-muted mb-6">{{ .Date.Format "January 2, 2006" }}</p>
+        <div class="text-text">
+          {{ .Content }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
