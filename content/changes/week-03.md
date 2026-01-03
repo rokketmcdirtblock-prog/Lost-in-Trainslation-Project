@@ -1,10 +1,10 @@
 ---
 title: "Week 03"
-date: 2025-02-01
+date: 2025-09-29
 ---
 
 ## What we did
 
-- Initial project setup
-- Created base templates
-- Configured Tailwind
+- -	Layout edited to be more comprehensive
+
+- Deze week ben ik: De lay-out gaan aanpassen zodat het beter te verstaan is. Ook heb ik sommige elementen in acht genomen wanneer ik verder bouwde op dit ontwerp. Kleuren en vormen uitgeprobeerd om verschillende uitwerkingen te bekomen.

@@ -1,10 +1,10 @@
 ---
 title: "Week 06"
-date: 2025-02-01
+date: 2025-10-20
 ---
 
 ## What we did
 
-- Initial project setup
-- Created base templates
-- Configured Tailwind
+- -	Chatgpt consulted and used for CSS and HTML
+
+- Deze week ben ik: ChatGPT gaan gebruiken tijdens en buiten de les om een idee te krijgen hoe ik mijn schermen zou gaan creëren met het gebruik van CSS en HTML.
