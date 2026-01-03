@@ -1,5 +1,5 @@
 ---
-title: "Week 6"
+title: "Week 06"
 date: 2025-02-01
 ---
 
